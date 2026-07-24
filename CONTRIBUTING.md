@@ -15,11 +15,10 @@ A function belongs here if:
 ## Setup
 
 ```bash
-git clone https://github.com/simplehissa/simplesuccess-utils.git
+git clone https://github.com/Simple46/simplesuccess-utils.git
 cd simplesuccess-utils
 npm install
 ```
-
 ## Development Workflow
 
 1. Create a branch: `git checkout -b feature/your-function-name`
