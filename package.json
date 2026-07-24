@@ -1,0 +1,31 @@
+{
+  "name": "@simplesuccess/utils",
+  "version": "0.1.0",
+  "description": "A modern, fully-typed TypeScript utility library",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "utils",
+    "typescript",
+    "helpers",
+    "lodash-alternative"
+  ],
+  "license": "MIT"
+}
