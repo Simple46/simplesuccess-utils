@@ -32,8 +32,11 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^9.39.5",
     "@vitest/coverage-v8": "^4.1.10",
-    "eslint": "^10.7.0",
+    "eslint": "^9.0.0",
+    "eslint-config": "latest",
+    "eslint-plugin": "latest",
     "prettier": "^3.9.6",
     "tsup": "^8.5.1",
     "typescript": "^6.0.3",
