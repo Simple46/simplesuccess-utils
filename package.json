@@ -30,5 +30,8 @@
     "helpers",
     "lodash-alternative"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^10.7.0"
+  }
 }
